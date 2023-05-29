@@ -1,0 +1,243 @@
+body {
+    height: 180vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  nav {
+    display: flex;
+    position: sticky;
+    top: 0%;
+    justify-content:space-around;
+  align-items: center;
+  z-index: 999;
+  background-color: #1c2a39;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+#logo {
+    margin: 40px 35px;
+  }
+  
+  #logo img {
+      filter: invert(150%);
+  height: 58px;
+  margin: -23px -13px;
+}
+
+nav ul {
+  display: flex;
+}
+
+
+#navbar ul li {
+  list-style: none;
+
+}
+
+
+#navbar ul li a {
+    font-size: 12px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px;
+    padding: 5px 10px;
+}
+
+#navbar ul li a:hover {
+    color: rgb(65, 154, 237);
+    background-color: rgb(210, 238, 241);
+    border-radius: 80px;
+  }
+  
+  
+  
+  #navbar .btn {
+      padding: 5px 22px;
+      margin: 10px 10px;
+  background-color: rgb(59, 206, 247);
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+#navbar .btn a {
+  display: block;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+
+}
+
+#navbar .btn:hover {
+  background-color: rgb(13, 196, 247);
+  border: 2px solid rgb(5, 122, 247);
+}
+
+
+
+  
+
+  form {
+          display: flex;
+          justify-content: center;
+          margin: 0px auto;
+          margin-top: 50px;
+          margin-bottom: 100px;
+          font-family: Arial, Helvetica, sans-serif;
+          max-width: 900px;
+          box-shadow: 0 0 2.5em rgb(196, 197, 197);
+    border-radius: 1em;
+    cursor: pointer;
+          /* added max-width to limit the form's width */
+          /* border: 1px solid black; */
+          /* added black border to the form */
+          padding: 20px;
+          /* added padding to the form */
+          box-sizing: border-box;
+          background-color: white;
+          /* added transparency to the background of the box */
+        }
+        
+
+
+
+      input,
+      textarea {
+          display: block;
+          margin-bottom: 10px;
+          width: 100%;
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        }
+/* 
+        text .input4{
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          cursor: pointer;
+        }
+         */
+        
+      
+      label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+      }
+
+      
+      .column1 {
+          flex: 1;
+          padding-right: 10px;
+          box-sizing: border-box;
+      }
+
+    
+      .column2 {
+          flex: 1;
+          padding-left: 10px;
+          box-sizing: border-box;
+      }
+
+      #textarea1 {
+          height: calc(3 * (35px + 40px));
+        
+      }
+
+        
+  h1{
+  text-align: center;
+  font-size: 2.7rem;
+  margin: 0.6em 0;
+  color: #1c2a39;
+  font-weight: 600;
+  }
+  
+
+
+      .lol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 34px 34px;
+      }
+
+
+
+
+
+
+
+
+
+
+  
+
+      .footer {
+        background-color: #1c2a39;
+        padding-top: 72px;
+        padding-bottom: 69px;
+        position: relative;
+        z-index: 8;
+      
+      }
+      
+      .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #1c2a39;
+        color: white;
+        justify-content: space-evenly;
+        height: 216vh;
+        padding: 100px 50px;
+      }
+      
+      .footer-column {
+        width: 220px;
+        margin: 0px 20px;
+      }
+      
+      .footer-column h4 {
+        margin-bottom: 40px;
+        font-size: 20px;
+      }
+      
+      .footer-column ul {
+        list-style: none;
+        margin-bottom: 25px;
+      }
+      
+      .footer-column ul li {
+        margin-bottom: 50px;
+      
+      }
+      
+      .footer-column ul li a {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+      }
+      
+      .footer-column ul li a:hover {
+        color: rgb(6, 104, 251);
+      
+      }
+      
+      .footer-bottom {
+        background-color: #1c2a39;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 50px;
+      }
